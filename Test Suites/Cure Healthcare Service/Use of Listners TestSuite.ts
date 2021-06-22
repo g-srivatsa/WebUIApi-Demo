@@ -6,51 +6,51 @@
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
-   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeout>1</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>d6327bc5-ee2b-462e-9cc7-2b14f576996c</testSuiteGuid>
+   <testSuiteGuid>cb28954b-c7cd-4533-a335-fd68aed1a6ab</testSuiteGuid>
    <testCaseLink>
-      <guid>3fb409ff-7edd-4d7f-986a-fdeb20b1b5e0</guid>
+      <guid>8a2a4d74-1247-4a13-87fa-46a69ee641a7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Web Test Cases/CURA Healthcare Service/Appointment/Click on Login Link</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>0fe732dc-4d1d-4e62-8133-e27caa2b07dc</guid>
+      <guid>c9196901-4dee-4efa-8212-a7c356773d01</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Web Test Cases/CURA Healthcare Service/Appointment/Login Application</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>efb6b31f-a649-4af1-88c5-36fb3ddec05c</guid>
+      <guid>356817d5-d95e-403b-b683-8fd4c487e682</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Test Cases/CURA Healthcare Service/Appointment/Make Appointment</testCaseId>
+      <testCaseId>Test Cases/Web Test Cases/CURA Healthcare Service/Appointment/Create Appointment</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>0b6b7782-e2b4-443c-b4ff-011067847fe9</id>
+         <id>69850755-88e3-496f-962b-ad06aa4ab327</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/AppTestData</testDataId>
+         <testDataId>Data Files/MakeAppointmentData</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>0b6b7782-e2b4-443c-b4ff-011067847fe9</testDataLinkId>
+         <testDataLinkId>69850755-88e3-496f-962b-ad06aa4ab327</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Facility</value>
          <variableId>3a5237a8-de02-4bcc-97d0-166556d4175d</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>0b6b7782-e2b4-443c-b4ff-011067847fe9</testDataLinkId>
+         <testDataLinkId>69850755-88e3-496f-962b-ad06aa4ab327</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>VisitDate</value>
          <variableId>e6a6dd4c-9add-4c82-a20c-5650ea48e1d8</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>0b6b7782-e2b4-443c-b4ff-011067847fe9</testDataLinkId>
+         <testDataLinkId>69850755-88e3-496f-962b-ad06aa4ab327</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Comment</value>
          <variableId>4fafdd75-f2c4-4ca5-b396-eb529b6ae7c4</variableId>

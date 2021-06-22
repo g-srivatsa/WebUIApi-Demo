@@ -54,19 +54,19 @@ def static "com.kms.katalon.keyword.applitools.BasicKeywords.checkElement"(
 }
 
 
-def static "com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow"(
-    	String testName	) {
-    (new com.kms.katalon.keyword.applitools.BasicKeywords()).checkWindow(
-        	testName)
-}
-
-
 def static "com.kms.katalon.keyword.applitools.BasicKeywords.checkTestObject"(
     	TestObject testObject	
      , 	String testName	) {
     (new com.kms.katalon.keyword.applitools.BasicKeywords()).checkTestObject(
         	testObject
          , 	testName)
+}
+
+
+def static "com.kms.katalon.keyword.applitools.BasicKeywords.checkWindow"(
+    	String testName	) {
+    (new com.kms.katalon.keyword.applitools.BasicKeywords()).checkWindow(
+        	testName)
 }
 
 
@@ -84,6 +84,13 @@ def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesOpen"(
 }
 
 
+def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesClose"(
+    	Eyes eyes	) {
+    (new com.kms.katalon.keyword.applitools.EyesKeywords()).eyesClose(
+        	eyes)
+}
+
+
 def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesOpenWithBaseline"(
     	String baselineName	
      , 	String testName	
@@ -95,17 +102,17 @@ def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesOpenWithBaseline
 }
 
 
-def static "com.kms.katalon.keyword.applitools.EyesKeywords.eyesClose"(
-    	Eyes eyes	) {
-    (new com.kms.katalon.keyword.applitools.EyesKeywords()).eyesClose(
-        	eyes)
+def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.getPreviousSiblingElement"(
+    	WebElement element	) {
+    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).getPreviousSiblingElement(
+        	element)
 }
 
 
-def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.isChecked"(
-    	WebElement element	) {
-    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).isChecked(
-        	element)
+def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.selectRadio"(
+    	String label	) {
+    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).selectRadio(
+        	label)
 }
 
 
@@ -118,24 +125,10 @@ def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.selectRadio"(
 }
 
 
-def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.selectRadio"(
-    	String label	) {
-    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).selectRadio(
-        	label)
-}
-
-
-def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.isDisabled"(
+def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.isChecked"(
     	WebElement element	) {
-    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).isDisabled(
+    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).isChecked(
         	element)
-}
-
-
-def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.findElements"(
-    	String cssSelector	) {
-    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).findElements(
-        	cssSelector)
 }
 
 
@@ -153,6 +146,20 @@ def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.getParentElement"(
 }
 
 
+def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.isDisabled"(
+    	WebElement element	) {
+    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).isDisabled(
+        	element)
+}
+
+
+def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.findElements"(
+    	String cssSelector	) {
+    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).findElements(
+        	cssSelector)
+}
+
+
 def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.isVisible"(
     	WebElement element	) {
     (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).isVisible(
@@ -167,10 +174,87 @@ def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.scrollTo"(
 }
 
 
-def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.getPreviousSiblingElement"(
+def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.getShadowElement"(
+    	WebElement parent	
+     , 	String selector	) {
+    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).getShadowElement(
+        	parent
+         , 	selector)
+}
+
+
+def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.getAllShadowElement"(
+    	WebElement parent	
+     , 	String selector	) {
+    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).getAllShadowElement(
+        	parent
+         , 	selector)
+}
+
+
+def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.findElementInsideParent"(
+    	WebElement parent	
+     , 	String cssSelector	) {
+    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).findElementInsideParent(
+        	parent
+         , 	cssSelector)
+}
+
+
+def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.selectCheckbox"(
+    	String label	) {
+    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).selectCheckbox(
+        	label)
+}
+
+
+def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.selectCheckbox"(
+    	WebElement parentElement	
+     , 	String label	) {
+    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).selectCheckbox(
+        	parentElement
+         , 	label)
+}
+
+
+def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.setExplicitWait"(
+    	int seconds	
+     , 	int pollingTime	) {
+    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).setExplicitWait(
+        	seconds
+         , 	pollingTime)
+}
+
+
+def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.findElementsInsideParent"(
+    	WebElement parent	
+     , 	String cssSelector	) {
+    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).findElementsInsideParent(
+        	parent
+         , 	cssSelector)
+}
+
+
+def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.getNextSiblingElement"(
     	WebElement element	) {
-    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).getPreviousSiblingElement(
+    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).getNextSiblingElement(
         	element)
+}
+
+
+def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.selectDropdown"(
+    	String label	) {
+    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).selectDropdown(
+        	label)
+}
+
+
+def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.selectDropdown"(
+    	WebElement parentElement	
+     , 	String label	) {
+    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).selectDropdown(
+        	parentElement
+         , 	label)
 }
 
 
@@ -197,94 +281,10 @@ def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.getSiblingElements"
 }
 
 
-def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.selectCheckbox"(
-    	WebElement parentElement	
-     , 	String label	) {
-    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).selectCheckbox(
-        	parentElement
-         , 	label)
-}
-
-
-def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.selectCheckbox"(
-    	String label	) {
-    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).selectCheckbox(
-        	label)
-}
-
-
-def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.findElementsInsideParent"(
-    	WebElement parent	
-     , 	String cssSelector	) {
-    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).findElementsInsideParent(
-        	parent
-         , 	cssSelector)
-}
-
-
-def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.selectDropdown"(
-    	WebElement parentElement	
-     , 	String label	) {
-    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).selectDropdown(
-        	parentElement
-         , 	label)
-}
-
-
-def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.selectDropdown"(
-    	String label	) {
-    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).selectDropdown(
-        	label)
-}
-
-
 def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.setImplicitWait"(
     	int seconds	) {
     (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).setImplicitWait(
         	seconds)
-}
-
-
-def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.getNextSiblingElement"(
-    	WebElement element	) {
-    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).getNextSiblingElement(
-        	element)
-}
-
-
-def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.findElementInsideParent"(
-    	WebElement parent	
-     , 	String cssSelector	) {
-    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).findElementInsideParent(
-        	parent
-         , 	cssSelector)
-}
-
-
-def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.getAllShadowElement"(
-    	WebElement parent	
-     , 	String selector	) {
-    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).getAllShadowElement(
-        	parent
-         , 	selector)
-}
-
-
-def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.setExplicitWait"(
-    	int seconds	
-     , 	int pollingTime	) {
-    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).setExplicitWait(
-        	seconds
-         , 	pollingTime)
-}
-
-
-def static "com.katalon.plugin.keyword.shadow.ShadowKeywords.getShadowElement"(
-    	WebElement parent	
-     , 	String selector	) {
-    (new com.katalon.plugin.keyword.shadow.ShadowKeywords()).getShadowElement(
-        	parent
-         , 	selector)
 }
 
 

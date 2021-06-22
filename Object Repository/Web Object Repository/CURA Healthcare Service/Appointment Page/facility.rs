@@ -6,24 +6,28 @@
    <elementGuidId>d1f8fa27-5042-421e-9dfe-6df16085c621</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;combo_facility&quot;]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'combo_facility']</value>
+         <value>//*[@id = 'combo_facilit']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>combo_facility</value>
+      <value>combo_facilit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='combo_facility']</value>
+      <value>//*[@id=&quot;combo_facility&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Use of Listners TestSuite" time="17.758" tests="3" failures="0" errors="0">
+   <testsuite name="Use of Listners TestSuite" tests="3" failures="0" errors="0" time="17.758" skipped="0" timestamp="2021-06-15 21:09:12" hostname="srivatsa - 192.168.0.121" id="Test Suites/Cure Healthcare Service/Use of Listners TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/srivatsa/Katalon Studio/DEMOABLE PROJECTs/WebUIApiInternalDemo/Reports/20210615_210908/Cure Healthcare Service/Use of Listners TestSuite/20210615_210908"/>
+         <property name="logFiles" value="/Users/srivatsa/Katalon Studio/DEMOABLE PROJECTs/WebUIApiInternalDemo/Reports/20210615_210908/Cure Healthcare Service/Use of Listners TestSuite/20210615_210908/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="srivatsa - 192.168.0.121"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Chrome 91.0.4472.101"/>
+         <property name="hostAddress" value="192.168.0.121"/>
+         <property name="sessionId" value="f5169281ac6580907316d8bd94574216"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Web Test Cases/CURA Healthcare Service/Appointment/Click on Login Link" time="2.601" classname="Test Cases/Web Test Cases/CURA Healthcare Service/Appointment/Click on Login Link" status="PASSED">
+         <system-out><![CDATA[2021-06-15 21:09:20 - [TEST_CASE][PASSED] - Test Cases/Web Test Cases/CURA Healthcare Service/Appointment/Click on Login Link: Test Cases/Web Test Cases/CURA Healthcare Service/Appointment/Click on Login Link
+
+2021-06-15 21:09:20 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2021-06-15 21:09:20 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-06-15 21:09:20 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2021-06-15 21:09:20 - [TEST_STEP][PASSED] - println("Test Case Status Before Run : " + TESTCASE_STATUS): null
+
+2021-06-15 21:09:20 - [TEST_STEP][PASSED] - click(findTestObject("Web Object Repository/CURA Healthcare Service/Home Page/menu-toggle")): Object: 'Object Repository/Web Object Repository/CURA Healthcare Service/Home Page/menu-toggle' is clicked on
+
+2021-06-15 21:09:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Object Repository/CURA Healthcare Service/Home Page/menu-toggle' is clicked on
+
+2021-06-15 21:09:21 - [TEST_STEP][PASSED] - click(findTestObject("Web Object Repository/CURA Healthcare Service/Home Page/Login link")): Object: 'Object Repository/Web Object Repository/CURA Healthcare Service/Home Page/Login link' is clicked on
+
+2021-06-15 21:09:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Object Repository/CURA Healthcare Service/Home Page/Login link' is clicked on
+
+2021-06-15 21:09:22 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web Object Repository/CURA Healthcare Service/Login Page/Please login to make appointment"), "Please login to make appointment."): Actual text and expected text of test object 'Object Repository/Web Object Repository/CURA Healthcare Service/Login Page/Please login to make appointment' are matched.
+
+2021-06-15 21:09:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web Object Repository/CURA Healthcare Service/Login Page/Please login to make appointment' are matched.
+
+2021-06-15 21:09:22 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2021-06-15 21:09:22 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-06-15 21:09:22 - [TEST_STEP][PASSED] - println("Test Case Status After Run :" + testCaseContext.getTestCaseStatus()): null
+
+2021-06-15 21:09:22 - [TEST_STEP][PASSED] - if (testCaseStatus == "FAILED"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web Test Cases/CURA Healthcare Service/Appointment/Login Application" time="2.493" classname="Test Cases/Web Test Cases/CURA Healthcare Service/Appointment/Login Application" status="PASSED">
+         <system-out><![CDATA[2021-06-15 21:09:22 - [TEST_CASE][PASSED] - Test Cases/Web Test Cases/CURA Healthcare Service/Appointment/Login Application: Test Cases/Web Test Cases/CURA Healthcare Service/Appointment/Login Application
+
+2021-06-15 21:09:22 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2021-06-15 21:09:22 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-06-15 21:09:22 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2021-06-15 21:09:22 - [TEST_STEP][PASSED] - println("Test Case Status Before Run : " + TESTCASE_STATUS): null
+
+2021-06-15 21:09:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web Object Repository/CURA Healthcare Service/Login Page/input_Username"), username): Keys 'John Doe' sent to object: 'Object Repository/Web Object Repository/CURA Healthcare Service/Login Page/input_Username'
+
+2021-06-15 21:09:23 - [MESSAGE][PASSED] - Keys 'John Doe' sent to object: 'Object Repository/Web Object Repository/CURA Healthcare Service/Login Page/input_Username'
+
+2021-06-15 21:09:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web Object Repository/CURA Healthcare Service/Login Page/input_Password"), password): Keys 'ThisIsNotAPassword' sent to object: 'Object Repository/Web Object Repository/CURA Healthcare Service/Login Page/input_Password'
+
+2021-06-15 21:09:24 - [MESSAGE][PASSED] - Keys 'ThisIsNotAPassword' sent to object: 'Object Repository/Web Object Repository/CURA Healthcare Service/Login Page/input_Password'
+
+2021-06-15 21:09:24 - [TEST_STEP][PASSED] - click(findTestObject("Web Object Repository/CURA Healthcare Service/Login Page/button_Login")): Object: 'Object Repository/Web Object Repository/CURA Healthcare Service/Login Page/button_Login' is clicked on
+
+2021-06-15 21:09:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Object Repository/CURA Healthcare Service/Login Page/button_Login' is clicked on
+
+2021-06-15 21:09:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Web Object Repository/CURA Healthcare Service/Appointment Page/Make Appointment"), "Make Appointment"): Actual text and expected text of test object 'Object Repository/Web Object Repository/CURA Healthcare Service/Appointment Page/Make Appointment' are matched.
+
+2021-06-15 21:09:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Web Object Repository/CURA Healthcare Service/Appointment Page/Make Appointment' are matched.
+
+2021-06-15 21:09:25 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2021-06-15 21:09:25 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-06-15 21:09:25 - [TEST_STEP][PASSED] - println("Test Case Status After Run :" + testCaseContext.getTestCaseStatus()): null
+
+2021-06-15 21:09:25 - [TEST_STEP][PASSED] - if (testCaseStatus == "FAILED"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Web Test Cases/CURA Healthcare Service/Appointment/Create Appointment" time="4.18" classname="Test Cases/Web Test Cases/CURA Healthcare Service/Appointment/Create Appointment" status="PASSED">
+         <system-out><![CDATA[2021-06-15 21:09:25 - [TEST_CASE][PASSED] - Test Cases/Web Test Cases/CURA Healthcare Service/Appointment/Create Appointment: Test Cases/Web Test Cases/CURA Healthcare Service/Appointment/Create Appointment
+
+2021-06-15 21:09:25 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2021-06-15 21:09:25 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-06-15 21:09:25 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2021-06-15 21:09:25 - [TEST_STEP][PASSED] - println("Test Case Status Before Run : " + TESTCASE_STATUS): null
+
+2021-06-15 21:09:25 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Web Object Repository/CURA Healthcare Service/Appointment Page/facility"), Facility, false): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Web Object Repository/CURA Healthcare Service/Appointment Page/facility' 
+
+2021-06-15 21:09:26 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Web Object Repository/CURA Healthcare Service/Appointment Page/facility' 
+
+2021-06-15 21:09:26 - [TEST_STEP][PASSED] - click(findTestObject("Web Object Repository/CURA Healthcare Service/Appointment Page/Apply for hospital readmission_hospital_readmission")): Object: 'Object Repository/Web Object Repository/CURA Healthcare Service/Appointment Page/Apply for hospital readmission_hospital_readmission' is clicked on
+
+2021-06-15 21:09:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Object Repository/CURA Healthcare Service/Appointment Page/Apply for hospital readmission_hospital_readmission' is clicked on
+
+2021-06-15 21:09:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web Object Repository/CURA Healthcare Service/Appointment Page/Visit Date (Required)"), VisitDate): Keys '19/05/2021' sent to object: 'Object Repository/Web Object Repository/CURA Healthcare Service/Appointment Page/Visit Date (Required)'
+
+2021-06-15 21:09:27 - [MESSAGE][PASSED] - Keys '19/05/2021' sent to object: 'Object Repository/Web Object Repository/CURA Healthcare Service/Appointment Page/Visit Date (Required)'
+
+2021-06-15 21:09:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Web Object Repository/CURA Healthcare Service/Appointment Page/Comment_comment"), Comment): Keys 'This Test Case Make an Appointment.' sent to object: 'Object Repository/Web Object Repository/CURA Healthcare Service/Appointment Page/Comment_comment'
+
+2021-06-15 21:09:28 - [MESSAGE][PASSED] - Keys 'This Test Case Make an Appointment.' sent to object: 'Object Repository/Web Object Repository/CURA Healthcare Service/Appointment Page/Comment_comment'
+
+2021-06-15 21:09:28 - [TEST_STEP][PASSED] - click(findTestObject("Web Object Repository/CURA Healthcare Service/Appointment Page/Book Appointment")): Object: 'Object Repository/Web Object Repository/CURA Healthcare Service/Appointment Page/Book Appointment' is clicked on
+
+2021-06-15 21:09:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Object Repository/CURA Healthcare Service/Appointment Page/Book Appointment' is clicked on
+
+2021-06-15 21:09:29 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Web Object Repository/CURA Healthcare Service/Confirmation Page/Appointment Confirmation")): Object 'Object Repository/Web Object Repository/CURA Healthcare Service/Confirmation Page/Appointment Confirmation' is visible
+
+2021-06-15 21:09:29 - [MESSAGE][PASSED] - Object 'Object Repository/Web Object Repository/CURA Healthcare Service/Confirmation Page/Appointment Confirmation' is visible
+
+2021-06-15 21:09:29 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2021-06-15 21:09:29 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-06-15 21:09:29 - [TEST_STEP][PASSED] - println("Test Case Status After Run :" + testCaseContext.getTestCaseStatus()): null
+
+2021-06-15 21:09:29 - [TEST_STEP][PASSED] - if (testCaseStatus == "FAILED"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-06-15 21:09:12 - [TEST_SUITE][PASSED] - Use of Listners TestSuite: Test Cases/Web Test Cases/CURA Healthcare Service/Appointment/Create Appointment]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

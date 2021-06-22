@@ -33,7 +33,7 @@
       <guid>efb6b31f-a649-4af1-88c5-36fb3ddec05c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Test Cases/CURA Healthcare Service/Appointment/Make Appointment</testCaseId>
+      <testCaseId>Test Cases/Web Test Cases/CURA Healthcare Service/Appointment/Create Appointment</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>0b6b7782-e2b4-443c-b4ff-011067847fe9</id>
@@ -41,7 +41,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/AppTestData</testDataId>
+         <testDataId>Data Files/MakeAppointmentData</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>0b6b7782-e2b4-443c-b4ff-011067847fe9</testDataLinkId>

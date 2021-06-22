@@ -1,0 +1,62 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Data Driven TestSuite,Chrome 91.0.4472.101,,,2021-06-15 21:05:02,2021-06-15 21:06:28,1m - 26.029s,FAILED
+,,,,,,,
+Test Cases/DataBase TestCases/Data Driven Test Case,Chrome 91.0.4472.101,This my Data Driveb Test case,DataDriven,2021-06-15 21:05:10,2021-06-15 21:05:40,29.560s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 91.0.4472.101,,,2021-06-15 21:05:10,2021-06-15 21:05:10,0.041s,PASSED
+openBrowser(URL),Chrome 91.0.4472.101,,,2021-06-15 21:05:11,2021-06-15 21:05:35,24.570s,PASSED
+"click(findTestObject(""Web Object Repository/CURA Healthcare Service/Home Page/Make Appointment""))",Chrome 91.0.4472.101,,,2021-06-15 21:05:35,2021-06-15 21:05:37,1.176s,PASSED
+"setText(findTestObject(""Web Object Repository/CURA Healthcare Service/Login Page/input_Username""), username)",Chrome 91.0.4472.101,,,2021-06-15 21:05:37,2021-06-15 21:05:37,0.913s,PASSED
+"setText(findTestObject(""Web Object Repository/CURA Healthcare Service/Login Page/input_Password""), password)",Chrome 91.0.4472.101,,,2021-06-15 21:05:37,2021-06-15 21:05:38,0.853s,PASSED
+"click(findTestObject(""Web Object Repository/CURA Healthcare Service/Login Page/button_Login""))",Chrome 91.0.4472.101,,,2021-06-15 21:05:38,2021-06-15 21:05:39,0.762s,PASSED
+"verifyElementText(findTestObject(""Web Object Repository/CURA Healthcare Service/Appointment Page/Make Appointment""), ""Make Appointment"")",Chrome 91.0.4472.101,,,2021-06-15 21:05:39,2021-06-15 21:05:40,0.874s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 91.0.4472.101,,,2021-06-15 21:05:40,2021-06-15 21:05:40,0.010s,PASSED
+,,,,,,,
+Test Cases/DataBase TestCases/Data Driven Test Case,Chrome 91.0.4472.101,This my Data Driveb Test case,DataDriven,2021-06-15 21:05:40,2021-06-15 21:05:50,10.437s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 91.0.4472.101,,,2021-06-15 21:05:40,2021-06-15 21:05:40,0.001s,PASSED
+openBrowser(URL),Chrome 91.0.4472.101,,,2021-06-15 21:05:40,2021-06-15 21:05:46,5.733s,PASSED
+"click(findTestObject(""Web Object Repository/CURA Healthcare Service/Home Page/Make Appointment""))",Chrome 91.0.4472.101,,,2021-06-15 21:05:46,2021-06-15 21:05:47,1.042s,PASSED
+"setText(findTestObject(""Web Object Repository/CURA Healthcare Service/Login Page/input_Username""), username)",Chrome 91.0.4472.101,,,2021-06-15 21:05:47,2021-06-15 21:05:48,1.085s,PASSED
+"setText(findTestObject(""Web Object Repository/CURA Healthcare Service/Login Page/input_Password""), password)",Chrome 91.0.4472.101,,,2021-06-15 21:05:48,2021-06-15 21:05:49,0.868s,PASSED
+"click(findTestObject(""Web Object Repository/CURA Healthcare Service/Login Page/button_Login""))",Chrome 91.0.4472.101,,,2021-06-15 21:05:49,2021-06-15 21:05:50,0.813s,PASSED
+"verifyElementText(findTestObject(""Web Object Repository/CURA Healthcare Service/Appointment Page/Make Appointment""), ""Make Appointment"")",Chrome 91.0.4472.101,,,2021-06-15 21:05:50,2021-06-15 21:05:50,0.877s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 91.0.4472.101,,,2021-06-15 21:05:50,2021-06-15 21:05:50,0.001s,PASSED
+,,,,,,,
+Test Cases/DataBase TestCases/Data Driven Test Case,Chrome 91.0.4472.101,This my Data Driveb Test case,DataDriven,2021-06-15 21:05:50,2021-06-15 21:06:00,10.007s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 91.0.4472.101,,,2021-06-15 21:05:50,2021-06-15 21:05:50,0.000s,PASSED
+openBrowser(URL),Chrome 91.0.4472.101,,,2021-06-15 21:05:50,2021-06-15 21:05:56,5.489s,PASSED
+"click(findTestObject(""Web Object Repository/CURA Healthcare Service/Home Page/Make Appointment""))",Chrome 91.0.4472.101,,,2021-06-15 21:05:56,2021-06-15 21:05:57,1.236s,PASSED
+"setText(findTestObject(""Web Object Repository/CURA Healthcare Service/Login Page/input_Username""), username)",Chrome 91.0.4472.101,,,2021-06-15 21:05:57,2021-06-15 21:05:58,0.892s,PASSED
+"setText(findTestObject(""Web Object Repository/CURA Healthcare Service/Login Page/input_Password""), password)",Chrome 91.0.4472.101,,,2021-06-15 21:05:58,2021-06-15 21:05:59,0.858s,PASSED
+"click(findTestObject(""Web Object Repository/CURA Healthcare Service/Login Page/button_Login""))",Chrome 91.0.4472.101,,,2021-06-15 21:05:59,2021-06-15 21:06:00,0.982s,PASSED
+"verifyElementText(findTestObject(""Web Object Repository/CURA Healthcare Service/Appointment Page/Make Appointment""), ""Make Appointment"")",Chrome 91.0.4472.101,,,2021-06-15 21:06:00,2021-06-15 21:06:00,0.530s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 91.0.4472.101,,,2021-06-15 21:06:00,2021-06-15 21:06:00,0.003s,PASSED
+,,,,,,,
+Test Cases/DataBase TestCases/Data Driven Test Case,Chrome 91.0.4472.101,This my Data Driveb Test case,DataDriven,2021-06-15 21:06:01,2021-06-15 21:06:11,9.983s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 91.0.4472.101,,,2021-06-15 21:06:01,2021-06-15 21:06:01,0.001s,PASSED
+openBrowser(URL),Chrome 91.0.4472.101,,,2021-06-15 21:06:01,2021-06-15 21:06:06,5.759s,PASSED
+"click(findTestObject(""Web Object Repository/CURA Healthcare Service/Home Page/Make Appointment""))",Chrome 91.0.4472.101,,,2021-06-15 21:06:06,2021-06-15 21:06:07,1.103s,PASSED
+"setText(findTestObject(""Web Object Repository/CURA Healthcare Service/Login Page/input_Username""), username)",Chrome 91.0.4472.101,,,2021-06-15 21:06:07,2021-06-15 21:06:08,0.852s,PASSED
+"setText(findTestObject(""Web Object Repository/CURA Healthcare Service/Login Page/input_Password""), password)",Chrome 91.0.4472.101,,,2021-06-15 21:06:08,2021-06-15 21:06:09,0.697s,PASSED
+"click(findTestObject(""Web Object Repository/CURA Healthcare Service/Login Page/button_Login""))",Chrome 91.0.4472.101,,,2021-06-15 21:06:09,2021-06-15 21:06:10,0.673s,PASSED
+"verifyElementText(findTestObject(""Web Object Repository/CURA Healthcare Service/Appointment Page/Make Appointment""), ""Make Appointment"")",Chrome 91.0.4472.101,,,2021-06-15 21:06:10,2021-06-15 21:06:10,0.876s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 91.0.4472.101,,,2021-06-15 21:06:11,2021-06-15 21:06:11,0.001s,PASSED
+,,,,,,,
+Test Cases/DataBase TestCases/Data Driven Test Case,Chrome 91.0.4472.101,This my Data Driveb Test case,DataDriven,2021-06-15 21:06:11,2021-06-15 21:06:19,8.620s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 91.0.4472.101,,,2021-06-15 21:06:11,2021-06-15 21:06:11,0.001s,PASSED
+openBrowser(URL),Chrome 91.0.4472.101,,,2021-06-15 21:06:11,2021-06-15 21:06:15,4.202s,PASSED
+"click(findTestObject(""Web Object Repository/CURA Healthcare Service/Home Page/Make Appointment""))",Chrome 91.0.4472.101,,,2021-06-15 21:06:15,2021-06-15 21:06:16,1.332s,PASSED
+"setText(findTestObject(""Web Object Repository/CURA Healthcare Service/Login Page/input_Username""), username)",Chrome 91.0.4472.101,,,2021-06-15 21:06:16,2021-06-15 21:06:17,0.847s,PASSED
+"setText(findTestObject(""Web Object Repository/CURA Healthcare Service/Login Page/input_Password""), password)",Chrome 91.0.4472.101,,,2021-06-15 21:06:17,2021-06-15 21:06:18,0.754s,PASSED
+"click(findTestObject(""Web Object Repository/CURA Healthcare Service/Login Page/button_Login""))",Chrome 91.0.4472.101,,,2021-06-15 21:06:18,2021-06-15 21:06:18,0.688s,PASSED
+"verifyElementText(findTestObject(""Web Object Repository/CURA Healthcare Service/Appointment Page/Make Appointment""), ""Make Appointment"")",Chrome 91.0.4472.101,,,2021-06-15 21:06:18,2021-06-15 21:06:19,0.776s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 91.0.4472.101,,,2021-06-15 21:06:19,2021-06-15 21:06:19,0.002s,PASSED
+,,,,,,,
+Test Cases/DataBase TestCases/Data Driven Test Case,Chrome 91.0.4472.101,This my Data Driveb Test case,DataDriven,2021-06-15 21:06:19,2021-06-15 21:06:28,8.355s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 91.0.4472.101,,,2021-06-15 21:06:19,2021-06-15 21:06:19,0.001s,PASSED
+openBrowser(URL),Chrome 91.0.4472.101,,,2021-06-15 21:06:19,2021-06-15 21:06:23,4.260s,PASSED
+"click(findTestObject(""Web Object Repository/CURA Healthcare Service/Home Page/Make Appointment""))",Chrome 91.0.4472.101,,,2021-06-15 21:06:23,2021-06-15 21:06:24,1.015s,PASSED
+"setText(findTestObject(""Web Object Repository/CURA Healthcare Service/Login Page/input_Username""), username)",Chrome 91.0.4472.101,,,2021-06-15 21:06:24,2021-06-15 21:06:25,0.965s,PASSED
+"setText(findTestObject(""Web Object Repository/CURA Healthcare Service/Login Page/input_Password""), password)",Chrome 91.0.4472.101,,,2021-06-15 21:06:25,2021-06-15 21:06:26,0.818s,PASSED
+"click(findTestObject(""Web Object Repository/CURA Healthcare Service/Login Page/button_Login""))",Chrome 91.0.4472.101,,,2021-06-15 21:06:26,2021-06-15 21:06:27,0.753s,PASSED
+"verifyElementText(findTestObject(""Web Object Repository/CURA Healthcare Service/Appointment Page/Make Appointment""), ""Make Appointment"")",Chrome 91.0.4472.101,,,2021-06-15 21:06:27,2021-06-15 21:06:28,0.531s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 91.0.4472.101,,,2021-06-15 21:06:28,2021-06-15 21:06:28,0.001s,PASSED

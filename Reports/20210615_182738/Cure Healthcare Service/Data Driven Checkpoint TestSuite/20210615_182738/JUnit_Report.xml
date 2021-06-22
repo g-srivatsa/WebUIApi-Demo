@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Data Driven Checkpoint TestSuite" time="110.609" tests="3" failures="3" errors="0">
+   <testsuite name="Data Driven Checkpoint TestSuite" tests="3" failures="3" errors="0" time="110.609" skipped="0" timestamp="2021-06-15 18:27:42" hostname="srivatsa - 192.168.0.121" id="Test Suites/Cure Healthcare Service/Data Driven Checkpoint TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/srivatsa/Katalon Studio/DEMOABLE PROJECTs/WebUIApiInternalDemo/Reports/20210615_182738/Cure Healthcare Service/Data Driven Checkpoint TestSuite/20210615_182738"/>
+         <property name="logFiles" value="/Users/srivatsa/Katalon Studio/DEMOABLE PROJECTs/WebUIApiInternalDemo/Reports/20210615_182738/Cure Healthcare Service/Data Driven Checkpoint TestSuite/20210615_182738/execution0.log"/>
+         <property name="attachments" value="keyes/keyes-ExcelCheckpoint.png, keyes/keyes-ExcelCheckpoint.png, keyes/keyes-ExcelCheckpoint.png"/>
+         <property name="hostName" value="srivatsa - 192.168.0.121"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Chrome 91.0.4472.101"/>
+         <property name="hostAddress" value="192.168.0.121"/>
+         <property name="sessionId" value="f4afc6696985a1069e72d39016b2cd2e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/DataBase TestCases/Data Driven Checkpoint Verification" time="9.849" classname="Test Cases/DataBase TestCases/Data Driven Checkpoint Verification" status="FAILED">
+         <failure type="FAILED" message="Test Cases/DataBase TestCases/Data Driven Checkpoint Verification FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot find checkpoint with ID 'Checkpoints/ExcelCheckpoint'. Root cause: 'java.lang.IllegalArgumentException: Checkpoint is missing 'taken-date' element'
+	at com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint(CheckpointFactory.java:197)
+	at com.kms.katalon.core.checkpoint.CheckpointFactory$findCheckpoint.callStatic(Unknown Source)
+	at Data Driven Checkpoint Verification.run(Data Driven Checkpoint Verification:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1623803258878.run(TempTestSuite1623803258878.groovy:39)
+"/>
+         <system-out><![CDATA[2021-06-15 18:29:06 - [TEST_CASE][FAILED] - Test Cases/DataBase TestCases/Data Driven Checkpoint Verification: Test Cases/DataBase TestCases/Data Driven Checkpoint Verification FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot find checkpoint with ID 'Checkpoints/ExcelCheckpoint'. Root cause: 'java.lang.IllegalArgumentException: Checkpoint is missing 'taken-date' element'
+	at com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint(CheckpointFactory.java:197)
+	at com.kms.katalon.core.checkpoint.CheckpointFactory$findCheckpoint.callStatic(Unknown Source)
+	at Data Driven Checkpoint Verification.run(Data Driven Checkpoint Verification:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1623803258878.run(TempTestSuite1623803258878.groovy:39)
+
+
+2021-06-15 18:29:06 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2021-06-15 18:29:06 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-06-15 18:29:06 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2021-06-15 18:29:06 - [TEST_STEP][PASSED] - println("Test Case Status Before Run : " + TESTCASE_STATUS): null
+
+2021-06-15 18:29:06 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com'
+
+2021-06-15 18:29:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-06-15 18:29:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-06-15 18:29:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-06-15 18:29:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com'
+
+2021-06-15 18:29:12 - [TEST_STEP][PASSED] - click(findTestObject("Web Object Repository/CURA Healthcare Service/Home Page/Make Appointment")): Object: 'Object Repository/Web Object Repository/CURA Healthcare Service/Home Page/Make Appointment' is clicked on
+
+2021-06-15 18:29:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Object Repository/CURA Healthcare Service/Home Page/Make Appointment' is clicked on
+
+2021-06-15 18:29:13 - [TEST_STEP][PASSED] - setText(findTestObject("Web Object Repository/CURA Healthcare Service/Login Page/input_Username"), username): Text 'ExcelUser1' is set on object 'Object Repository/Web Object Repository/CURA Healthcare Service/Login Page/input_Username'
+
+2021-06-15 18:29:14 - [MESSAGE][PASSED] - Text 'ExcelUser1' is set on object 'Object Repository/Web Object Repository/CURA Healthcare Service/Login Page/input_Username'
+
+2021-06-15 18:29:14 - [TEST_STEP][PASSED] - setText(findTestObject("Web Object Repository/CURA Healthcare Service/Login Page/input_Password"), password): Text 'ExcelPass1' is set on object 'Object Repository/Web Object Repository/CURA Healthcare Service/Login Page/input_Password'
+
+2021-06-15 18:29:14 - [MESSAGE][PASSED] - Text 'ExcelPass1' is set on object 'Object Repository/Web Object Repository/CURA Healthcare Service/Login Page/input_Password'
+
+2021-06-15 18:29:14 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("ExcelCheckpoint"): Taking screenshot successfully
+
+2021-06-15 18:29:15 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-06-15 18:29:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-ExcelCheckpoint.png]]
+
+2021-06-15 18:29:15 - [TEST_STEP][PASSED] - verifyCheckpoint(findCheckpoint("Checkpoints/ExcelCheckpoint"), false): null
+
+2021-06-15 18:29:15 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2021-06-15 18:29:15 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-06-15 18:29:15 - [TEST_STEP][PASSED] - println("Test Case Status After Run :" + testCaseContext.getTestCaseStatus()): null
+
+2021-06-15 18:29:15 - [TEST_STEP][PASSED] - if (testCaseStatus == "FAILED"): null
+
+2021-06-15 18:29:15 - [TEST_STEP][PASSED] - TESTCASE_STATUS = false: null]]></system-out>
+         <system-err><![CDATA[2021-06-15 18:29:06 - [TEST_CASE][FAILED] - Test Cases/DataBase TestCases/Data Driven Checkpoint Verification: Test Cases/DataBase TestCases/Data Driven Checkpoint Verification FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot find checkpoint with ID 'Checkpoints/ExcelCheckpoint'. Root cause: 'java.lang.IllegalArgumentException: Checkpoint is missing 'taken-date' element'
+	at com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint(CheckpointFactory.java:197)
+	at com.kms.katalon.core.checkpoint.CheckpointFactory$findCheckpoint.callStatic(Unknown Source)
+	at Data Driven Checkpoint Verification.run(Data Driven Checkpoint Verification:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1623803258878.run(TempTestSuite1623803258878.groovy:39)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DataBase TestCases/Data Driven Checkpoint Verification" time="7.711" classname="Test Cases/DataBase TestCases/Data Driven Checkpoint Verification" status="FAILED">
+         <failure type="FAILED" message="Test Cases/DataBase TestCases/Data Driven Checkpoint Verification FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot find checkpoint with ID 'Checkpoints/ExcelCheckpoint'. Root cause: 'java.lang.IllegalArgumentException: Checkpoint is missing 'taken-date' element'
+	at com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint(CheckpointFactory.java:197)
+	at com.kms.katalon.core.checkpoint.CheckpointFactory$findCheckpoint.callStatic(Unknown Source)
+	at Data Driven Checkpoint Verification.run(Data Driven Checkpoint Verification:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1623803258878.run(TempTestSuite1623803258878.groovy:39)
+"/>
+         <system-out><![CDATA[2021-06-15 18:29:16 - [TEST_CASE][FAILED] - Test Cases/DataBase TestCases/Data Driven Checkpoint Verification: Test Cases/DataBase TestCases/Data Driven Checkpoint Verification FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot find checkpoint with ID 'Checkpoints/ExcelCheckpoint'. Root cause: 'java.lang.IllegalArgumentException: Checkpoint is missing 'taken-date' element'
+	at com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint(CheckpointFactory.java:197)
+	at com.kms.katalon.core.checkpoint.CheckpointFactory$findCheckpoint.callStatic(Unknown Source)
+	at Data Driven Checkpoint Verification.run(Data Driven Checkpoint Verification:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1623803258878.run(TempTestSuite1623803258878.groovy:39)
+
+
+2021-06-15 18:29:16 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2021-06-15 18:29:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-06-15 18:29:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2021-06-15 18:29:16 - [TEST_STEP][PASSED] - println("Test Case Status Before Run : " + TESTCASE_STATUS): null
+
+2021-06-15 18:29:16 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com'
+
+2021-06-15 18:29:16 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-06-15 18:29:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-06-15 18:29:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-06-15 18:29:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com'
+
+2021-06-15 18:29:20 - [TEST_STEP][PASSED] - click(findTestObject("Web Object Repository/CURA Healthcare Service/Home Page/Make Appointment")): Object: 'Object Repository/Web Object Repository/CURA Healthcare Service/Home Page/Make Appointment' is clicked on
+
+2021-06-15 18:29:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Object Repository/CURA Healthcare Service/Home Page/Make Appointment' is clicked on
+
+2021-06-15 18:29:21 - [TEST_STEP][PASSED] - setText(findTestObject("Web Object Repository/CURA Healthcare Service/Login Page/input_Username"), username): Text 'ExcelUser2' is set on object 'Object Repository/Web Object Repository/CURA Healthcare Service/Login Page/input_Username'
+
+2021-06-15 18:29:22 - [MESSAGE][PASSED] - Text 'ExcelUser2' is set on object 'Object Repository/Web Object Repository/CURA Healthcare Service/Login Page/input_Username'
+
+2021-06-15 18:29:22 - [TEST_STEP][PASSED] - setText(findTestObject("Web Object Repository/CURA Healthcare Service/Login Page/input_Password"), password): Text 'ExcelPass2' is set on object 'Object Repository/Web Object Repository/CURA Healthcare Service/Login Page/input_Password'
+
+2021-06-15 18:29:23 - [MESSAGE][PASSED] - Text 'ExcelPass2' is set on object 'Object Repository/Web Object Repository/CURA Healthcare Service/Login Page/input_Password'
+
+2021-06-15 18:29:23 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("ExcelCheckpoint"): Taking screenshot successfully
+
+2021-06-15 18:29:23 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-06-15 18:29:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-ExcelCheckpoint.png]]
+
+2021-06-15 18:29:23 - [TEST_STEP][PASSED] - verifyCheckpoint(findCheckpoint("Checkpoints/ExcelCheckpoint"), false): null
+
+2021-06-15 18:29:23 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2021-06-15 18:29:23 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-06-15 18:29:23 - [TEST_STEP][PASSED] - println("Test Case Status After Run :" + testCaseContext.getTestCaseStatus()): null
+
+2021-06-15 18:29:23 - [TEST_STEP][PASSED] - if (testCaseStatus == "FAILED"): null
+
+2021-06-15 18:29:23 - [TEST_STEP][PASSED] - TESTCASE_STATUS = false: null]]></system-out>
+         <system-err><![CDATA[2021-06-15 18:29:16 - [TEST_CASE][FAILED] - Test Cases/DataBase TestCases/Data Driven Checkpoint Verification: Test Cases/DataBase TestCases/Data Driven Checkpoint Verification FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot find checkpoint with ID 'Checkpoints/ExcelCheckpoint'. Root cause: 'java.lang.IllegalArgumentException: Checkpoint is missing 'taken-date' element'
+	at com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint(CheckpointFactory.java:197)
+	at com.kms.katalon.core.checkpoint.CheckpointFactory$findCheckpoint.callStatic(Unknown Source)
+	at Data Driven Checkpoint Verification.run(Data Driven Checkpoint Verification:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1623803258878.run(TempTestSuite1623803258878.groovy:39)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DataBase TestCases/Data Driven Checkpoint Verification" time="8.991" classname="Test Cases/DataBase TestCases/Data Driven Checkpoint Verification" status="FAILED">
+         <failure type="FAILED" message="Test Cases/DataBase TestCases/Data Driven Checkpoint Verification FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot find checkpoint with ID 'Checkpoints/ExcelCheckpoint'. Root cause: 'java.lang.IllegalArgumentException: Checkpoint is missing 'taken-date' element'
+	at com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint(CheckpointFactory.java:197)
+	at com.kms.katalon.core.checkpoint.CheckpointFactory$findCheckpoint.callStatic(Unknown Source)
+	at Data Driven Checkpoint Verification.run(Data Driven Checkpoint Verification:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1623803258878.run(TempTestSuite1623803258878.groovy:39)
+"/>
+         <system-out><![CDATA[2021-06-15 18:29:23 - [TEST_CASE][FAILED] - Test Cases/DataBase TestCases/Data Driven Checkpoint Verification: Test Cases/DataBase TestCases/Data Driven Checkpoint Verification FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot find checkpoint with ID 'Checkpoints/ExcelCheckpoint'. Root cause: 'java.lang.IllegalArgumentException: Checkpoint is missing 'taken-date' element'
+	at com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint(CheckpointFactory.java:197)
+	at com.kms.katalon.core.checkpoint.CheckpointFactory$findCheckpoint.callStatic(Unknown Source)
+	at Data Driven Checkpoint Verification.run(Data Driven Checkpoint Verification:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1623803258878.run(TempTestSuite1623803258878.groovy:39)
+
+
+2021-06-15 18:29:23 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: null
+
+2021-06-15 18:29:23 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-06-15 18:29:23 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2021-06-15 18:29:23 - [TEST_STEP][PASSED] - println("Test Case Status Before Run : " + TESTCASE_STATUS): null
+
+2021-06-15 18:29:23 - [TEST_STEP][PASSED] - openBrowser(URL): Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com'
+
+2021-06-15 18:29:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-06-15 18:29:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-06-15 18:29:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-06-15 18:29:29 - [MESSAGE][PASSED] - Browser is opened with url: 'https://katalon-demo-cura.herokuapp.com'
+
+2021-06-15 18:29:29 - [TEST_STEP][PASSED] - click(findTestObject("Web Object Repository/CURA Healthcare Service/Home Page/Make Appointment")): Object: 'Object Repository/Web Object Repository/CURA Healthcare Service/Home Page/Make Appointment' is clicked on
+
+2021-06-15 18:29:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Web Object Repository/CURA Healthcare Service/Home Page/Make Appointment' is clicked on
+
+2021-06-15 18:29:30 - [TEST_STEP][PASSED] - setText(findTestObject("Web Object Repository/CURA Healthcare Service/Login Page/input_Username"), username): Text 'John Doe' is set on object 'Object Repository/Web Object Repository/CURA Healthcare Service/Login Page/input_Username'
+
+2021-06-15 18:29:31 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Web Object Repository/CURA Healthcare Service/Login Page/input_Username'
+
+2021-06-15 18:29:31 - [TEST_STEP][PASSED] - setText(findTestObject("Web Object Repository/CURA Healthcare Service/Login Page/input_Password"), password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Web Object Repository/CURA Healthcare Service/Login Page/input_Password'
+
+2021-06-15 18:29:32 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Web Object Repository/CURA Healthcare Service/Login Page/input_Password'
+
+2021-06-15 18:29:32 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("ExcelCheckpoint"): Taking screenshot successfully
+
+2021-06-15 18:29:32 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2021-06-15 18:29:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-ExcelCheckpoint.png]]
+
+2021-06-15 18:29:32 - [TEST_STEP][PASSED] - verifyCheckpoint(findCheckpoint("Checkpoints/ExcelCheckpoint"), false): null
+
+2021-06-15 18:29:32 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2021-06-15 18:29:32 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2021-06-15 18:29:32 - [TEST_STEP][PASSED] - println("Test Case Status After Run :" + testCaseContext.getTestCaseStatus()): null
+
+2021-06-15 18:29:32 - [TEST_STEP][PASSED] - if (testCaseStatus == "FAILED"): null
+
+2021-06-15 18:29:32 - [TEST_STEP][PASSED] - TESTCASE_STATUS = false: null]]></system-out>
+         <system-err><![CDATA[2021-06-15 18:29:23 - [TEST_CASE][FAILED] - Test Cases/DataBase TestCases/Data Driven Checkpoint Verification: Test Cases/DataBase TestCases/Data Driven Checkpoint Verification FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot find checkpoint with ID 'Checkpoints/ExcelCheckpoint'. Root cause: 'java.lang.IllegalArgumentException: Checkpoint is missing 'taken-date' element'
+	at com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint(CheckpointFactory.java:197)
+	at com.kms.katalon.core.checkpoint.CheckpointFactory$findCheckpoint.callStatic(Unknown Source)
+	at Data Driven Checkpoint Verification.run(Data Driven Checkpoint Verification:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1623803258878.run(TempTestSuite1623803258878.groovy:39)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-06-15 18:27:42 - [TEST_SUITE][FAILED] - Data Driven Checkpoint TestSuite: Test Cases/DataBase TestCases/Data Driven Checkpoint Verification FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot find checkpoint with ID 'Checkpoints/ExcelCheckpoint'. Root cause: 'java.lang.IllegalArgumentException: Checkpoint is missing 'taken-date' element'
+	at com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint(CheckpointFactory.java:197)
+	at com.kms.katalon.core.checkpoint.CheckpointFactory$findCheckpoint.callStatic(Unknown Source)
+	at Data Driven Checkpoint Verification.run(Data Driven Checkpoint Verification:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1623803258878.run(TempTestSuite1623803258878.groovy:39)]]></system-out>
+      <system-err><![CDATA[2021-06-15 18:27:42 - [TEST_SUITE][FAILED] - Data Driven Checkpoint TestSuite: Test Cases/DataBase TestCases/Data Driven Checkpoint Verification FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Cannot find checkpoint with ID 'Checkpoints/ExcelCheckpoint'. Root cause: 'java.lang.IllegalArgumentException: Checkpoint is missing 'taken-date' element'
+	at com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint(CheckpointFactory.java:197)
+	at com.kms.katalon.core.checkpoint.CheckpointFactory$findCheckpoint.callStatic(Unknown Source)
+	at Data Driven Checkpoint Verification.run(Data Driven Checkpoint Verification:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:248)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:140)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:89)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1623803258878.run(TempTestSuite1623803258878.groovy:39)]]></system-err>
+   </testsuite>
+</testsuites>

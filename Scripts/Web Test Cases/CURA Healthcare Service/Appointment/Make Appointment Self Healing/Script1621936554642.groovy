@@ -23,7 +23,7 @@ WebUI.callTestCase(findTestCase('Web Test Cases/CURA Healthcare Service/Appointm
 
 WebUI.callTestCase(findTestCase('Web Test Cases/CURA Healthcare Service/Appointment/Login Application'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.selectOptionByValue(findTestObject('Web Object Repository/CURA Healthcare Service/Appointment Page/facility'), Facility, 
+WebUI.selectOptionByLabel(findTestObject('Web Object Repository/CURA Healthcare Service/Appointment Page/facility'), 'Hongkong CURA Healthcare Center', 
     false)
 
 WebUI.click(findTestObject('Web Object Repository/CURA Healthcare Service/Appointment Page/Apply for hospital readmission_hospital_readmission'))

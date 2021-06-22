@@ -15,7 +15,7 @@
       <guid>c7dcd961-0383-4472-a710-a4daec016cfe</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Test Cases/CURA Healthcare Service/Data Driven/Data Driven Test Case</testCaseId>
+      <testCaseId>Test Cases/DataBase TestCases/Data Driven Test Case</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>823f4314-53e3-4081-89b2-13b4a8f1fd56</id>
@@ -23,7 +23,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/UserPass</testDataId>
+         <testDataId>Data Files/ExcelUsernamePassword</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>823f4314-53e3-4081-89b2-13b4a8f1fd56</testDataLinkId>
@@ -42,7 +42,7 @@
       <guid>4664f6d0-c31c-43b1-90c7-6e0e87b0a770</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Web Test Cases/CURA Healthcare Service/Data Driven/Data Driven Test Case</testCaseId>
+      <testCaseId>Test Cases/DataBase TestCases/Data Driven Test Case</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>3727f8fd-64d6-4d9d-8ce1-82b6315011b0</id>
@@ -50,7 +50,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/postgreskatalondemo</testDataId>
+         <testDataId>Data Files/DatabaseUsernamePassword</testDataId>
       </testDataLink>
       <variableLink>
          <testDataLinkId>3727f8fd-64d6-4d9d-8ce1-82b6315011b0</testDataLinkId>

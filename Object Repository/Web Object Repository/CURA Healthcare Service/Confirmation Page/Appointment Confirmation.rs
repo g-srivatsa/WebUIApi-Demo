@@ -6,19 +6,19 @@
    <elementGuidId>4888ec1a-e12c-4faa-b5c1-c4b47f0f5466</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Appointment Confirmation' or . = 'Appointment Confirmation')]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//section[@id='summary']/div/div/div/h2</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Make Appointment'])[1]/following::h2[1]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>h2</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Appointment Confirmation' or . = 'Appointment Confirmation')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
