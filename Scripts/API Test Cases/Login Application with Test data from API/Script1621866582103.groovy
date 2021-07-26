@@ -17,13 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('API Test Cases/Get User Details'), [:], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('API Test Cases/Get User Details'), [:], FailureHandling.STOP_ON_FAILURE)
+response = WS.sendRequest(findTestObject('API Object Repository/Get Users'))
+
+WS.verifyResponseStatusCode(response, 200)
+
+usrName = WS.getElementPropertyValue(response, 'data[3].first_name')
 
 WebUI.callTestCase(findTestCase('Web Test Cases/CURA Healthcare Service/Appointment/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Web Test Cases/CURA Healthcare Service/Appointment/Click on Login Link'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.sendKeys(findTestObject('Web Object Repository/CURA Healthcare Service/Login Page/input_Username'), GlobalVariable.GlobalUsrName)
+WebUI.sendKeys(findTestObject('Web Object Repository/CURA Healthcare Service/Login Page/input_Username'), usrName)
 
 WebUI.sendKeys(findTestObject('Web Object Repository/CURA Healthcare Service/Login Page/input_Password'), GlobalVariable.password)
 
