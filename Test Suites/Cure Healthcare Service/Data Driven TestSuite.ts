@@ -39,13 +39,13 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>c19eb92e-3521-44fa-9ed1-070bf9d359f1</guid>
+      <guid>2c4b6f71-90fb-44f6-9786-ca7620e1894c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/DataBase TestCases/Data Driven Test Case</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>7fa755d1-dfdd-4ab3-829b-43ec7da1724b</id>
+         <id>85792acd-88c5-48e4-8622-749bada991b0</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -53,15 +53,15 @@
          <testDataId>Data Files/DatabaseUsernamePassword</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>7fa755d1-dfdd-4ab3-829b-43ec7da1724b</testDataLinkId>
+         <testDataLinkId>85792acd-88c5-48e4-8622-749bada991b0</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Username</value>
+         <value>username</value>
          <variableId>993fb669-37d2-40b8-8ab1-d97bfbdf0aee</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>7fa755d1-dfdd-4ab3-829b-43ec7da1724b</testDataLinkId>
+         <testDataLinkId>85792acd-88c5-48e4-8622-749bada991b0</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Password</value>
+         <value>password</value>
          <variableId>2d91604e-383a-406d-a922-e56854cf94c2</variableId>
       </variableLink>
    </testCaseLink>
